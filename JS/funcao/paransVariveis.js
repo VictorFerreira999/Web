@@ -1,6 +1,6 @@
 function soma() {
    let soma = 0
-   for (i in arguments){
+   for (i in arguments) {
       soma += arguments[i]
    }
    return soma
@@ -8,6 +8,5 @@ function soma() {
 
 console.log(soma())
 console.log(soma(1))
-console.log(soma(1,5,7,9,9))
-console.log(soma(1,5,7,9,9, ' teste'))
-
+console.log(soma(2,5,3))
+console.log(soma(4.5,4.5))
