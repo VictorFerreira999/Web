@@ -22,3 +22,6 @@ const getNotaDoAluno = aluno => aluno.nota
 const getNotaDaTurma =  turma => turma.alunos.map(getNotaDoAluno)
 
 const notas1 = escola.map(getNotaDaTurma)
+console.log(notas1)
+top
+
